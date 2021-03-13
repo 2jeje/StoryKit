@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'StoryKit_Example' do
+  pod 'StoryKit', :path => '../'
+
+  target 'StoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
