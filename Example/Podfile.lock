@@ -1,0 +1,16 @@
+PODS:
+  - StoryKit (0.1.0)
+
+DEPENDENCIES:
+  - StoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  StoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StoryKit: 312c4d1784428da5cdc80c0182d60e7ee4356e8c
+
+PODFILE CHECKSUM: c6729eb50c693ca7b3529c81d6433560de759f89
+
+COCOAPODS: 1.9.1
