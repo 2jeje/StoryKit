@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.source_files = 'StoryKit/Classes/**/*'
   s.swift_version = '5.0'
   s.resources = 'StoryKit/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-   s.resource_bundles = {
-     'StoryKit' => ['StoryKit/asset.xcassets']
-   }
+   #s.resource_bundles = {
+   #  'StoryKit' => ['StoryKit/asset.xcassets']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
