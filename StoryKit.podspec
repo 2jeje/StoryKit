@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'StoryKit/Classes/**/*'
   s.swift_version = '5.0'
-  
-  # s.resource_bundles = {
-  #   'StoryKit' => ['StoryKit/Assets/*.png']
-  # }
+  s.resources = 'StoryKit/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+   s.resource_bundles = {
+     'StoryKit' => ['StoryKit/asset.xcassets']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
