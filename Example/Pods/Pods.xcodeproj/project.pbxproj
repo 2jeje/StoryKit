@@ -11,10 +11,9 @@
 		2FD0F012F9F4C826FBB5FD1AA94B922F /* Pods-StoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A96F19ECAA65A60984B2629D9BB9D28 /* Pods-StoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		566678FC320F5B582E9C4DC2F7EA66B8 /* Pods-StoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E46504BDAEC50FE57268B0BA08CAF6 /* Pods-StoryKit_Example-dummy.m */; };
 		5B2910EC190A1F6F9A894017F1499651 /* StoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31FF3410CBA9CD3F8F368260BC5409B /* StoryKit-dummy.m */; };
-		5CA141AC25FD1D9100B300D5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA141AB25FD1D9100B300D5 /* Extension.swift */; };
-		5CA141B125FD1D9600B300D5 /* EditableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA141B025FD1D9600B300D5 /* EditableView.swift */; };
-		5CA141C025FD1EA000B300D5 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA141BF25FD1EA000B300D5 /* asset.xcassets */; };
-		5CA1421325FD23CF00B300D5 /* btDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1421225FD23CF00B300D5 /* btDelete.png */; };
+		5CA1430A25FDF5B500B300D5 /* EditableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1430925FDF5B500B300D5 /* EditableView.swift */; };
+		5CA1430F25FDF5C100B300D5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1430E25FDF5C100B300D5 /* Extension.swift */; };
+		5CA1431425FDF60700B300D5 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1431325FDF60700B300D5 /* asset.xcassets */; };
 		68737879C1C1946ABDA54853B514A89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		711C23A089669694861CDDDD82301785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		ABE3E717CEAD6513105085DE5639793B /* StoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54986ADE3BEEC6F3A18177E8802B8637 /* StoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,10 +51,9 @@
 		44D93D54ECD09EC3A4CCE6E1BA9270B6 /* Pods-StoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		499AA196865646EE9F38C8B19B9DE892 /* StoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StoryKit.modulemap; sourceTree = "<group>"; };
 		54986ADE3BEEC6F3A18177E8802B8637 /* StoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StoryKit-umbrella.h"; sourceTree = "<group>"; };
-		5CA141AB25FD1D9100B300D5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		5CA141B025FD1D9600B300D5 /* EditableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableView.swift; sourceTree = "<group>"; };
-		5CA141BF25FD1EA000B300D5 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
-		5CA1421225FD23CF00B300D5 /* btDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btDelete.png; sourceTree = "<group>"; };
+		5CA1430925FDF5B500B300D5 /* EditableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditableView.swift; path = StoryKit/Classes/EditableView.swift; sourceTree = "<group>"; };
+		5CA1430E25FDF5C100B300D5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = StoryKit/Classes/Extension.swift; sourceTree = "<group>"; };
+		5CA1431325FDF60700B300D5 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = asset.xcassets; path = StoryKit/Assets/asset.xcassets; sourceTree = "<group>"; };
 		5DDC2A3D9022EB08D3BCD6D21FD79D5B /* Pods-StoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		6A96F19ECAA65A60984B2629D9BB9D28 /* Pods-StoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6B3961EBADDD76ABB563E5E1064AAE88 /* Pods_StoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,10 +144,9 @@
 		4845998FB3E0CC15CAB24D90128B4154 /* StoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				5CA1421225FD23CF00B300D5 /* btDelete.png */,
-				5CA141BF25FD1EA000B300D5 /* asset.xcassets */,
-				5CA141AB25FD1D9100B300D5 /* Extension.swift */,
-				5CA141B025FD1D9600B300D5 /* EditableView.swift */,
+				5CA1431325FDF60700B300D5 /* asset.xcassets */,
+				5CA1430E25FDF5C100B300D5 /* Extension.swift */,
+				5CA1430925FDF5B500B300D5 /* EditableView.swift */,
 				859B98C10625CD64821D53151D50C0A0 /* ReplaceMe.swift */,
 				F86F012A3465240428D15794DAFA5A90 /* Pod */,
 				BF337261DC992A4D5EAC0C74626C54F4 /* Support Files */,
@@ -360,8 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA1421325FD23CF00B300D5 /* btDelete.png in Resources */,
-				5CA141C025FD1EA000B300D5 /* asset.xcassets in Resources */,
+				5CA1431425FDF60700B300D5 /* asset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,10 +382,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA141AC25FD1D9100B300D5 /* Extension.swift in Sources */,
 				AF7B191EA4D56A2FB6FEF5FC56819A14 /* ReplaceMe.swift in Sources */,
-				5CA141B125FD1D9600B300D5 /* EditableView.swift in Sources */,
+				5CA1430A25FDF5B500B300D5 /* EditableView.swift in Sources */,
 				5B2910EC190A1F6F9A894017F1499651 /* StoryKit-dummy.m in Sources */,
+				5CA1430F25FDF5C100B300D5 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +441,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/StoryKit/StoryKit.modulemap";
 				PRODUCT_MODULE_NAME = StoryKit;
 				PRODUCT_NAME = StoryKit;
@@ -667,7 +663,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/StoryKit/StoryKit.modulemap";
 				PRODUCT_MODULE_NAME = StoryKit;
 				PRODUCT_NAME = StoryKit;

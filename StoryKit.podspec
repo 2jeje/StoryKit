@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StoryKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'edit story for SNS'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'StoryKit/Classes/**/*'
   s.swift_version = '5.0'
-  #s.resources = 'StoryKit/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+  s.resources = 'StoryKit/Assets/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
    #s.resource_bundles = {
    #  'StoryKit' => ['StoryKit/asset.xcassets']
    #}
